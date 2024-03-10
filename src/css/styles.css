@@ -1,0 +1,40 @@
+h1 {
+    color: red;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 10, 10, 10, 10;
+    padding: 10, 10, 10, 10;
+}
+
+html {
+    background-color: #c0a0d0;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #c0a0d0;
+    text-align: center;
+    padding: 10, 10, 10, 10;
+    margin: 10, 10, 10, 10;
+    list-style: none;
+}
+
+#nav-item {
+    max-width: 100px;
+    padding: 10, 10, 10, 10;
+}
+
+a:hover {
+    background-color: #a0c0d0;
+    color: #fff;
+    font-size: larger + 10px;
+}
